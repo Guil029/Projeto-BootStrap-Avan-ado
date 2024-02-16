@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#carousel-de-frutas {
+    padding: 40px;
+    width: 100%;
+}
+
+#carousel-de-frutas h2{
+    text-decoration: solid;
+}
+
+header h1{
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.container img {
+    padding: 15px;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

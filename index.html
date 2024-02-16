@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel BootStrap</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Frutas Goes
+        </h1>
+    </header>
+    
+    <div id="carousel-de-frutas" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2500" class="carousel-item active">
+                <div class="carousel-caption">
+                    <h2>Frutas</h2>
+                </div>
+                <img src="img/grocery-1232944_1280.jpg" alt="">
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <div class="carousel-caption">
+                    <h2>Quitanda</h2>
+                </div>
+                <img src="img/supermarket-949913_1280.jpg" alt="">
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <div class="carousel-caption">
+                    <h2>Vegetais</h2>
+                </div>
+                <img src="img/vegetable-market-337971_1280.jpg" alt="">
+            </div>
+        </div>
+
+
+        <button type="button" data-bs-target="#carousel-de-frutas" data-bs-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button type="button" data-bs-target="#carousel-de-frutas" data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-de-frutas" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-de-frutas" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-de-frutas" data-bs-slide-to="2"></button>
+        </div>
+    </div>  
+
+
+    <div class="container">
+        <div class="row row-cols-sm-1 row-cols-md-2 ">
+            <div class="col-lg">
+                <div class="card">
+                <img src="img/fruits-1534494_1280.jpg" alt="Peras">
+                <h3><a href="#">Peras</a></h3>
+                <div class="card-footer">
+                    R$ 19,90 por Kg.
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card">
+                <img src="img/strawberries-8177601_1280.jpg" alt="Morangos">
+                <h3><a href="#">Morangos</a></h3>
+                <div class="card-footer">
+                    R$ 9,90 por Kg.
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card">
+                <img src="img/oranges-1995056_1280.jpg" alt="Laranjas">
+                <h3><a href="#">Laranjas</a></h3>
+                <div class="card-footer">
+                    R$ 4,50 por Kg.
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
